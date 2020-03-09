@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: rails-code-challenge_production
-  username: rails-code-challenge
+  username: jeffrey
   password: <%= ENV['RAILS-CODE-CHALLENGE_DATABASE_PASSWORD'] %>
